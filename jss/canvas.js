@@ -40,7 +40,6 @@ $(document).ready(function(){
       $(this).hide();
     });
 
-
     $('#bprev').click(function() {
         if (index == 0) {
           alert('Esta es la primer hoja');
@@ -56,8 +55,6 @@ $(document).ready(function(){
         $('#numpa').text("Página: " + (index+1));
 
     });
-
-
     $('#bsig').click(function() {
         if (maxindex==index) {
           maxindex = maxindex + 1;
@@ -75,7 +72,6 @@ $(document).ready(function(){
         $('#numpa').text("Página: " + (index+1));
 
     });
-
 
     $('#shapecolor').change(function() {
       var activeObject = canvas.getActiveObject();
@@ -133,8 +129,14 @@ $(document).ready(function(){
           canvas.selection = true;
           canvas.renderAll();
           canvas.calcOffset();
-
     });
+
+    $('#button4').click(function() {
+      texto = $("#textocanvas").val();
+      var text = new fabric.Text(texto, { left: 100, top: 100 });
+      canvas.add(text);
+    });
+
     $('.iconos').click(function() {
       var ruta = this.getAttribute('name');
       fabric.Image.fromURL(ruta, function(myImg) {

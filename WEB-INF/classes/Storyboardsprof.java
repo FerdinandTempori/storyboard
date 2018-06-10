@@ -318,6 +318,11 @@ public class Storyboardsprof extends HttpServlet {
             out.println("<br/>");
             out.println("<br/>");
             out.println("<div class='container-fluid'>");
+            out.println("<button id ='button1' class='btn btn-info iconos'>Circulo</button>");
+            out.println("<button id ='button2' class='btn btn-info iconos'>Rectangulo</button>");
+            out.println("<button id ='button3' class='btn btn-info iconos'>Linea</button>");
+            out.println("<button id ='button4' class='btn btn-info iconos'>Texto</button>");
+            out.println("Ingresa el texto: <input type='text' size = '30' id='textocanvas'/>");
             // out.println("<div class='text-center'>");
             out.println("<ul class='nav nav-tabs' role='tablist'>");
             

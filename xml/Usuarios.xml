@@ -17,4 +17,4 @@
     	<Tipo>Administrador</Tipo>
     </Usuario>
     
-<Usuario><Nombre>Alumno</Nombre><Correo>alumno@alumno.com</Correo><Username>Alumno</Username><Password>1234</Password><Tipo>Estudiante</Tipo><Grupo>3CM9</Grupo></Usuario><Usuario><Nombre>prof</Nombre><Correo>prof@ofkf.xom</Correo><Username>Prof</Username><Password>1234</Password><Tipo>Profesor</Tipo></Usuario><Usuario><Nombre>alu</Nombre><Correo>alu@alu</Correo><Username>alu</Username><Password>123</Password><Tipo>Estudiante</Tipo><Grupo>3CM9</Grupo></Usuario><Usuario><Nombre>aloi</Nombre><Correo>fera@fdk</Correo><Username>fera</Username><Password>111</Password><Tipo>Estudiante</Tipo><Grupo>3CM9</Grupo></Usuario></Usuarios>
+<Usuario><Nombre>Alumno</Nombre><Correo>alumno@alumno.com</Correo><Username>Alumno</Username><Password>1234</Password><Tipo>Estudiante</Tipo><Grupo>3CM9</Grupo></Usuario></Usuarios>

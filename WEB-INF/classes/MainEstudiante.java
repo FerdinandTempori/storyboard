@@ -71,16 +71,16 @@ public class MainEstudiante extends HttpServlet {
 
         out.println("</div>");
         out.println("<div class='col-10' style='background: rgb(255, 255, 255)'>");
-        out.println("<ul class='nav nav-tabs'>");
-        out.println("<li class='nav-item'>");
-        out.println("<a class='nav-link' href='./MisProyectos'>Mis Proyectos</a>");
-        out.println("</li>");
-        out.println("<li class='nav-item'>");
-        out.println("<a class='nav-link' href='#'>Link</a>");
-        out.println("</li>");
-        out.println("<li class='nav-item'>");
-        out.println("<a class='nav-link' href='#'>Link</a>");
-        out.println("</ul>");
+        // out.println("<ul class='nav nav-tabs'>");
+        // out.println("<li class='nav-item'>");
+        // out.println("<a class='nav-link' href='./MisProyectos'>Mis Proyectos</a>");
+        // out.println("</li>");
+        // out.println("<li class='nav-item'>");
+        // out.println("<a class='nav-link' href='#'>Link</a>");
+        // out.println("</li>");
+        // out.println("<li class='nav-item'>");
+        // out.println("<a class='nav-link' href='#'>Link</a>");
+        // out.println("</ul>");
         out.println("<H1>Bienvenido (a) Estudiante :  "+user+"</H1>");
         out.println("<div id='containerStorys' ref='"+user+"'><div class='row'></div></div>");
         out.println("</div>");
